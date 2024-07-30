@@ -1,0 +1,24 @@
+select {
+    appearance: none;
+    background-color: #393e46;
+    border: 1px solid #fff;
+    padding: 8px 28px 8px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+}
+
+.birthday{
+    text-align: center;
+    background-color: #393e46;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.buttonSignup{background-color: #6643b5}
+
+h2{color: #6643b5}

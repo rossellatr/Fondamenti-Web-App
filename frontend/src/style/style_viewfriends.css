@@ -1,0 +1,8 @@
+ul.friend-list {
+  list-style-type: circle; 
+  padding-left: 20px;
+}
+
+.friend-list-item {
+  margin-bottom: 20px;
+}

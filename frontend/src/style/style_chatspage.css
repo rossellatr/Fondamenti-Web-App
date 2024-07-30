@@ -1,0 +1,5 @@
+.sidebarchat{width: 200px;
+position: fixed;
+    top: 10px;
+    left: 0;
+transform: translateX(30%)}

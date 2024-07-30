@@ -1,0 +1,111 @@
+/* Stile per il titolo "Login" */
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Stile per il contenitore del modulo di login */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222831;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile per le etichette dei campi di input */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color : #f2f2f2;
+}
+
+/* Stile per i campi di input */
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    background-color: #393e46;
+    color : #f2f2f2;
+}
+
+/* Stile per il contenitore del campo password con il pulsante di visualizzazione */
+.password-toggle {
+    position: relative;
+}
+
+/* Stile per il pulsante di visualizzazione password */
+.password-toggle .toggle-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-30%);
+    cursor: pointer;
+}
+
+/* Stile per il pulsante di login */
+form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #f96d00;
+    color: #f2f2f2;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Stile per il testo "Don't have an account yet?" */
+form p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Stile per il link di registrazione */
+form a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Stile per il pulsante di registrazione */
+form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #0366d6;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+h2 ,p{
+    color: #f2f2f2;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #6643b5;
+    color: #f2f2f2;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
